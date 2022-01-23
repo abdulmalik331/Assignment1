@@ -6,10 +6,12 @@
 #include<readline/history.h> 
 #include<unistd.h> 
 #include<sys/types.h> 
-
+#include<MailMsg.Idl>
 #define MAX 1000
 #define clear() printf("\033[H\033[J") 
-
+void rand(){
+    x=1;
+}
  
 void Input(char* input) 
 { 
